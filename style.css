@@ -1,0 +1,64 @@
+:root{
+	--botao-tamanho: 20vw;
+	--foto-tamanho: 20vw;
+
+}
+@media (max-width: 800px){
+	:root{
+		--botao-tamanho: 50vw;
+		--foto-tamanho: 40vw;
+	}
+}
+body {
+  	background: linear-gradient(90deg, #1AC7E5, #1A62E5, #381AE5);
+	margin: 0;
+	padding: 0;
+}
+
+@media only screen and (max-width: 600px) {
+  .download {
+    background-color: green;
+  }
+}
+
+.logo{
+	margin-top: 15vh;
+}
+img{
+	display: block;
+	width: var(--foto-tamanho);
+	height: var(--foto-tamanho);
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 40px;
+}
+.titulo{
+	text-align: center;
+	font-family: Roboto, sans-serif,"apple color emoji","segoe ui emoji","segoe ui symbol";
+	font-weight: 800;
+	font-size: 5vh;
+	color: white;
+}
+.interacao{
+	text-align: center;	
+	height: 15vh;
+}
+.download{
+	text-align: center;
+	background-color: #1a6ce5;
+	width: var(--botao-tamanho);
+	height: 10vh;
+	font-size: 170%;
+	border-radius: 40px;
+	color: #fff;
+	font-family: "Bauhaus 93", sans-serif,"apple color emoji","segoe ui emoji","segoe ui symbol";
+	text-decoration: none;
+	border: none;
+	box-shadow: 0 0 0.5em black;
+	transition-duration: 0.7s;
+    -webkit-transition-duration: 0.7s;
+}
+.download:hover{
+	background-color: #14ff44;
+    color: #fff;
+}
