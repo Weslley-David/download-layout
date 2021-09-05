@@ -48,10 +48,10 @@ img{
 	background-color: #1a6ce5;
 	width: var(--botao-tamanho);
 	height: 10vh;
-	font-size: 170%;
+	font-size: 175%;
 	border-radius: 40px;
 	color: #fff;
-	font-family: "Bauhaus 93", sans-serif,"apple color emoji","segoe ui emoji","segoe ui symbol";
+	font-family: 'Supermercado One', cursive, "Bauhaus 93", sans-serif,"apple color emoji","segoe ui emoji","segoe ui symbol";
 	text-decoration: none;
 	border: none;
 	box-shadow: 0 0 0.5em black;
@@ -59,6 +59,6 @@ img{
     -webkit-transition-duration: 0.7s;
 }
 .download:hover{
-	background-color: #14ff44;
+	background-color: #3aeb34;
     color: #fff;
 }
